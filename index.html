@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>劳大数字论证器</title>
+	<title>牢大数字论证器</title>
 	<meta name="viewport" content="width=device-width,user-scalable=0">
-	<meta name="description" content="数字劳大化工具">
+	<meta name="description" content="数字牢大化工具">
 	<style>
 		html {
 			text-align: center;
@@ -69,7 +69,7 @@
 			border-radius: 12px;
 		}
 
-		#劳大 {
+		#牢大 {
 			font-size: 24px;
 			font-family: "Comic Sans MS", script;
 			padding: 40px 10px 100px;
@@ -97,7 +97,7 @@
 
 <body>
 	<input id="sb" placeholder="输入任意数字" type="number">
-	<div id="劳大"></div>
+	<div id="牢大"></div>
 
 	<footer>
 		<p>复制请保持开源并保留引用信息</p>
@@ -109,7 +109,7 @@
 	<script>
 		sb.oninput = _ => {
 			const number = sb.value === '' ? '' : Number(sb.value);
-			劳大.innerHTML = number + ' = <big>' + laoda(number) + '</big>';
+			牢大.innerHTML = number + ' = <big>' + laoda(number) + '</big>';
 			容器.setAttribute('数字', number);
 		};
 
