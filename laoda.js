@@ -51,6 +51,7 @@ const laoda = ((Nums) => {
 	}
 	return (num) => finisher(demolish(num))
 })({
+	"⑨": "(-2-4)!+2-4",
 	0 : "((-2+4)!-2)*4",
 	1 : "((-2-4)!-2-4)!",
 	2 : "(((-2-4)!+2)!-4)!",
@@ -70,4 +71,3 @@ const laoda = ((Nums) => {
 
 if (typeof module === 'object' && module.exports)
 	module.exports = laoda
-
